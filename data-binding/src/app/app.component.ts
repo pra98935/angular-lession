@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-
-  yell(e){
-    alert("alert Function Yell");
-    console.log(e);
-  }
-
+  binding = 'This is my first data binding';
 }

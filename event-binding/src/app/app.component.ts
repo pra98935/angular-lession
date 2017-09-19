@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
-  yell(e){
-    alert("alert Function Yell");
-    console.log(e);
+  alertMe(){
+    alert('this is event binding');
   }
+
 
 }
